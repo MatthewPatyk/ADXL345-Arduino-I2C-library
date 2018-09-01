@@ -22,7 +22,7 @@ The working example for this library is writen in [Atmel Studio 7](http://www.mi
 	- [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) (tested) or Visual Studio,
 	- [Visual Micro](https://www.visualmicro.com/) addon for above AS7 or VS.
 - Hardware: 
-	- Arduino Due board,
+	- Arduino Due (tested) or Arduino Uno (any ATmega 328P) board,
 	- ADXL345 board or any IMU sensor with ADXL345.
 
 ### Wiring
