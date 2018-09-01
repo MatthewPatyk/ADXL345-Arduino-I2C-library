@@ -35,7 +35,7 @@ The working example for this library is writen in [Atmel Studio 7](http://www.mi
 |VCC 5V*|- **|5V|
 |GND|GND|GND|
  
- *If your ADXL345 board uses 5V or 3.3V  and your MCU work on the similar voltage level (Due - 3.3V, Uno - 5V) this library provide you the possibility of  restarting ADXL345 IC, see "Callibration process" below.
+ *If your ADXL345 board uses 5V or 3.3V  and your MCU work on the similar voltage level (Due - 3.3V, Uno - 5V) this library provide you the possibility of  restarting ADXL345 IC, see [Callibration process](https://github.com/MatthewPatyk/ADXL345-Arduino-I2C-library/blob/master/README.md#callibration-process) below.
  
  **The Due MCU cannot be exposed to the voltage above 3.3V level!
  
