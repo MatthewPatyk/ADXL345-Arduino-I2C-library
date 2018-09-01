@@ -17,7 +17,7 @@ Library uses [I2C Interface](https://github.com/MatthewPatyk/I2C-Interface-for-A
 ## Getting Started
 The working example for this library is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) with [Visual Micro](https://www.visualmicro.com/) addon. But **it is possible to run it with Arduino IDE** by [adding files to project](https://www.arduino.cc/en/Guide/Environment#toc8) (probably there will be need to change the `#include` paths).
 
-###Prerequisites
+### Prerequisites
 - Software: 
 	- [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) (tested) or Visual Studio,
 	- [Visual Micro](https://www.visualmicro.com/) addon for above AS7 or VS.
@@ -25,7 +25,7 @@ The working example for this library is writen in [Atmel Studio 7](http://www.mi
 	- Arduino Due board,
 	- ADXL345 board or any IMU sensor with ADXL345.
 
-###Wiring
+### Wiring
 
 |ADXL345 board|Due board|Uno board|
 | :------------: | :------------: | :------------: |
@@ -39,7 +39,7 @@ The working example for this library is writen in [Atmel Studio 7](http://www.mi
  
  **The Due MCU cannot be exposed to the voltage above 3.3V level!
  
-##Example 
+## Example 
 To see a real-life example open AS7 project file `ADXL345_Project.atsln` and upload it (`ADXL345_Project.ino`) to a micro-controller. You should see somethink like that on Serial Monitor (baud rate = 115200):
 ```
 2	Serial initialized with baud rate = 115200
