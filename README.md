@@ -12,7 +12,7 @@ C++ library for ADXL345 accelerometer for I2C communication with Arduino Wire li
 
 The library is intended to work **without any user interference**, just open [project](https://github.com/MatthewPatyk/ADXL345-Arduino-I2C-library/blob/master/ADXL345_Project.atsln) and upload working [example](https://github.com/MatthewPatyk/ADXL345-Arduino-I2C-library/blob/master/ADXL345_Project/ADXL345_Project.ino) and use it. However, if there is such a need, the user has **the possibility of advanced configuration** and use of the library.
 
-Library uses [I2C Interface](https://github.com/MatthewPatyk/I2C-Interface-for-Arduino-Wire-Library), [I2C Sensor Interface](https://github.com/MatthewPatyk/I2C-Sensor-Interface) to simplify and unify working with I2C devices. The library also uses [Status Class](https://github.com/MatthewPatyk/I2C-Sensor-Interface) which is optional.
+Library uses [I2C Interface](https://github.com/MatthewPatyk/I2C-Interface-for-Arduino-Wire-Library), [I2C Sensor Interface](https://github.com/MatthewPatyk/I2C-Sensor-Interface) to simplify and unify working with I2C devices. The library also uses [Status Class](https://github.com/MatthewPatyk/Status-Class) which is optional.
  
 ## Getting Started
 The working example for this library is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) with [Visual Micro](https://www.visualmicro.com/) addon. But **it is possible to run it with Arduino IDE** by [adding files to project](https://www.arduino.cc/en/Guide/Environment#toc8) (probably there will be need to change the `#include` paths).
@@ -26,6 +26,7 @@ The working example for this library is writen in [Atmel Studio 7](http://www.mi
 	- ADXL345 board or any IMU sensor with ADXL345.
 
 ###Wiring
+
 |ADXL345 board|Due board|Uno board|
 | :------------: | :------------: | :------------: |
 |SCL|SCL (21)|SCL (A4)|
@@ -50,7 +51,7 @@ To see a real-life example open AS7 project file `ADXL345_Project.atsln` and upl
 #### Getting events
  To see events {free fall, single tap, double tap} change defines in `ADXL345_Project.ino` file to:
  ```
-#define PRINT_DATA				0x00 // 0x01 = Enable; Other = Disable
+#define PRINT_DATA			0x00 // 0x01 = Enable; Other = Disable
 #define PRINT_EVENTS			0x01 // 0x01 = Enable; Other = Disable
 ```
 
